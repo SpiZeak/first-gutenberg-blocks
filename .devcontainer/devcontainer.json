@@ -14,7 +14,20 @@
 			"less",
 			"postcss",
 			"scss"
-		]
+		],
+		"editor.formatOnSave": true,
+		"[typescriptreact]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[typescript]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"[javascript]": {
+			"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		},
+		"editor.codeActionsOnSave": {
+			"source.fixAll.stylelint": true
+		}
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
